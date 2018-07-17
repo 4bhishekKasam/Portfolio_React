@@ -11,9 +11,9 @@ class SideNavBar extends Component {
         return (
             <Router>
                 <div>
-                    <div class="sidenav">
+                    <div className="sidenav">
                         <div className="container">
-                            <img src={require("../img/profile.jpg")} className="img-circle"
+                            <img src={require("../img/pro.jpg")} className="img-circle"
                                 alt="Abhishek Konnur" />
                         </div>
                         <div className="container">
@@ -38,6 +38,21 @@ class SideNavBar extends Component {
                             <Route path="/Resume" component={Resume} />
                         </Switch>
                     </div>
+
+                    <div className="footer">
+                        <p>
+                            <a href="https://www.facebook.com/Abhishek.Konnur" className="w3-hover-text-indigo"><i className="fa fa-facebook-official"></i></a>
+                            &nbsp;
+                            <a href="https://github.com/4bhishekKasam" className="w3-hover-text-red"><i className="fa fa-github"></i></a>
+                            &nbsp;
+                            <a href="https://twitter.com/abhi_madmax" className="w3-hover-text-red"><i className="fa fa-instagram"></i></a>
+                            &nbsp;
+                            <a href="https://www.linkedin.com/in/abhishek-konnur-362763163/" className="w3-hover-text-red"><i className="fa fa-linkedin-square"></i></a>
+                            &nbsp;
+                            <a href="https://stackoverflow.com/users/9624268/abhishek-konnur" className="w3-hover-text-red"><i className="fa fa-stack-overflow"></i></a>
+                        </p>
+                    </div>
+
                 </div>
             </Router>
 

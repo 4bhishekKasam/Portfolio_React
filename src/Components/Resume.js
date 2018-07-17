@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
+import './Resume.css';
+import resume from '../doc/ResumeAbhishek.pdf';
 
 class Resume extends Component {
+
+    componentWillMount = () => {
+        console.log('check =');
+        console.log(resume);
+    }
+
     render() {
         return (
             <div>
@@ -13,9 +21,11 @@ class Resume extends Component {
                 <div className="row">
                     <div className="col">
                         <center>
-                             <button type="button" className="btn btn-secondary btn-lg">
-                                <i class="fa fa-download" aria-hidden="true"/>
-                            &nbsp; Resume</button>
+                            <a type="button" className="btn btn-secondary btn-lg"
+                                href='../doc/ResumeAbhishek.pdf'
+                                download>
+                                <i className="fa fa-download" aria-hidden="true" />
+                                &nbsp; Resume</a>
                         </center>
                     </div>
                 </div>

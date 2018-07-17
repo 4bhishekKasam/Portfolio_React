@@ -32,7 +32,7 @@
 }
 
 .main {
-    margin-left: 260px; /* Same as the width of the sidenav */
+    margin-left: 255px; /* Same as the width of the sidenav */
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 60px 10px 0px 40px;
 }
@@ -65,3 +65,18 @@
     text-decoration: none!important;
     
 }
+
+.footer {
+    position: fixed;
+    left: 280px;
+    bottom: 0;
+    width: 77%;
+    background-color: transparent;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+ }
+
+ .footer>a{
+     color:black
+ }
