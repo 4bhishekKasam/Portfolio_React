@@ -29,6 +29,10 @@ class SideNavBar extends Component {
                             <Link to={'/Portfolio'}>Portfolio</Link>
                             <Link to={'/Resume'}>Resume</Link>
                         </div>
+                        <hr />
+                        <div className="container">
+                            <div className="credit"> Handcrafted by Abhishek Konnur</div>
+                        </div>
                     </div>
                     <div className="main">
                         <Switch>
