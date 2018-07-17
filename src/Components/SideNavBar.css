@@ -50,8 +50,6 @@
     background-color: rgb(240, 240, 240);
 }
 
-
-
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -62,8 +60,11 @@
     font-size: 25px;
     font-weight: bolder;
     letter-spacing: 4px; 
-    text-decoration: none!important;
-    
+    text-decoration: none!important;  
+}
+.credit{
+    color: white;
+    font-size: 14px;
 }
 
 .footer {
